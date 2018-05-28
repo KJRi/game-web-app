@@ -1,0 +1,15 @@
+:global .ant-list-item{
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  .ant-list-item-meta-content{
+  border-bottom: 1px #e8e8e8 solid;
+  }
+  .ant-list-item-content{
+    height: 80px;
+    overflow: hidden;
+  }
+}
+:global .ant-list-vertical .ant-list-item-meta-avatar{
+  display: inline-block;
+}

@@ -1,0 +1,16 @@
+@import "../../styles/abstracts/variables.css";
+
+.footer{
+  height: calc(var(--header-height) + 1px);
+  line-height: var(--header-height);
+  border-bottom: var(--default-border);
+  text-align: center;
+  .footer-menu{
+    display: flex;
+    line-height: 64px;
+  }
+  :global (.ant-menu-item) {
+    margin: 0 auto;
+    font-size: 14px;
+  }
+}

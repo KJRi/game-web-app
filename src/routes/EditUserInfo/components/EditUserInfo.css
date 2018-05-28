@@ -1,0 +1,28 @@
+.formStyle{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.loginButton{
+    width: 60%;
+}
+.containel{
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 30px;
+  margin: 50px auto;
+}
+h2{
+  color: #fff;
+}
+:global .ant-upload {
+  width: 128px;
+  height: 128px;
+  img {
+    width: 128px;
+    height: 128px;
+  }
+}

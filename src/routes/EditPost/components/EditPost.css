@@ -1,0 +1,9 @@
+.containel{
+  padding: 10px;
+  :global .ant-form-item{
+    margin: 8px 0;
+  }
+}
+.loginButton{
+  float: right;
+}

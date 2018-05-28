@@ -1,0 +1,26 @@
+.list-item {
+  margin-top: 1px;
+  background: #fff;
+  padding: 15px 32px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: 1px solid #e8e8e8;
+  :global
+  .anticon-right {
+    font-size: 14px;
+    float: right;
+    color: #33CCCC;
+  }
+  :global .anticon {
+    margin-right: 10px;
+    color: #33CCCC;
+  }
+}
+a{
+  color: #666;
+}
+a:nth-child(1) {
+  .list-item {
+    text-align: center;
+  }
+}
